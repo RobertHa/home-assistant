@@ -13,3 +13,9 @@ scene: !include scenes.yaml
 
 mqtt:
   broker: !secret mqtt_broker_ipv4
+
+sensor:
+  - platform: time_date
+    display_options:
+      - 'time_date'
+
